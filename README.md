@@ -2,10 +2,11 @@
 
 ***
 
-A fork of [nmaggioni/Simple-JSONdb](https://github.com/nmaggioni/Simple-JSONdb), this is a dead simple JSON database for your web app.
+A fork of [nmaggioni/Simple-JSONdb](https://github.com/nmaggioni/Simple-JSONdb), this is a dead simple JSON database for your web app. Check out the demo at [qjsondb-demo.glitch.me](https://glitch.com/~qjsondb-demo)
 
 **Install:** `npm i qjson-db`
 
+[![Tests tests](https://github.com/tiagorangel2011/qjson-db/actions/workflows/ci.yml/badge.svg)](https://github.com/tiagorangel2011/qjson-db/actions/workflows/ci.yml) [![Known Vulnerabilities](https://snyk.io/test/github/tiagorangel2011/qjson-db/badge.svg)](https://snyk.io/test/github/tiagorangel2011/qjson-db)
 ## Usage
 
 Start by creating your database:
