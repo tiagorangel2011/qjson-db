@@ -1,3 +1,10 @@
+/* 
+ * To run tests:
+ * $ npm ci
+ * $ npm test
+ */
+
+
 const JSONdb = require('.');
 const assert = require('chai').assert;
 const fs = require('fs');
