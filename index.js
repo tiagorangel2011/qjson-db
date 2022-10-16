@@ -41,8 +41,10 @@ function JSONdb(filePath, options) {
   // Mandatory arguments check
   if (!filePath || !filePath.length) {
     throw new Error('Missing file path argument.');
-  } else {
+  } else if (filePath.endsWith(".json")) {
     this.filePath = filePath;
+  } else {
+    this.filePath = filePath + ".json";
   }
 
   // Options parsing
@@ -85,7 +87,7 @@ function JSONdb(filePath, options) {
     try {
       data = fs.readFileSync(filePath);
     } catch (err) {
-      throw err;  // TODO: Do something meaningful
+      throw err;
     }
     if (validateJSON.bind(this)(data)) this.storage = this.options.parse(data);
   }
