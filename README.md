@@ -1,3 +1,6 @@
+> 🍩 **Note:** If you want a database with more features (e.g. math, etc.), I hightly recommend you looking at [jsoning](https://github.com/khalby786/jsoning) by [@khalby786](https://github.com/khalby786)
+
+
 <img src="https://user-images.githubusercontent.com/70700766/196008415-77fb1306-c178-4d7b-88fb-a0888d926171.png" width="300" alt="qjson-db: Dead simple JSON database">
 
 ***
