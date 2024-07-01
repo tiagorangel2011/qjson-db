@@ -1,6 +1,3 @@
-> 🍩 **Note:** If you want a database with more features (e.g. math, etc.), I hightly recommend you looking at [jsoning](https://github.com/khalby786/jsoning) by [@khalby786](https://github.com/khalby786)
-
-
 <img src="https://user-images.githubusercontent.com/70700766/196008415-77fb1306-c178-4d7b-88fb-a0888d926171.png" width="300" alt="qjson-db: Dead simple JSON database">
 
 ***
@@ -8,6 +5,8 @@
 A simplified and improved version of [nmaggioni/Simple-JSONdb](https://github.com/nmaggioni/Simple-JSONdb): a dead simple JSON database for your web app.
 
 **Install:**: `npm i qjson-db` or `bun add qjson-db` if you're feeling extra fancy.
+**Requirements:** Node >= 10.0
+**Note:** If you want a database with more features (e.g. math, etc.) but less support for older versions of Node, I highly recommend you looking at [jsoning](https://github.com/khalby786/jsoning) by [@khalby786](https://github.com/khalby786)
 
 ## Usage
 
